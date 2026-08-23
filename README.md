@@ -34,26 +34,27 @@ L’objectif est de mettre en place une infrastructure permettant de **supervise
   Virtualisation de l’infrastructure.
 
 ## 🔗 Architecture
-C:\Projects\wazuh-soc-lab\docs\assets\architecture.png
+docs/assets/architecture.png
+
 
 ##  🔍 Visualisation & Analyse
 
 ## 🔹Agents Wazuh
-C:\Projects\wazuh-soc-lab\docs\assets\Endpoints.jpg
+docs/assets/Endpoints.jpg
 
 ## 🔹Détection de vulnérabilités dans wazuh
-C:\Projects\wazuh-soc-lab\docs\assets\Vulns_detection.png
+docs/assets/Endpoints/Vulns_detection.png
 ## 🔹Tableau de bord des menaces
-C:\Projects\wazuh-soc-lab\docs\assets\Threat Hunting.png
+docs/assets/Endpoints/assets/Threat Hunting.png
 
 ## 🔹Logs IDS/IPS via pfSense + Suricata
-C:\Projects\wazuh-soc-lab\docs\assets\pfSense.jpg
+docs/assets/Endpoints/assets/pfSense.jpg
 
 ## 🔹Playbooks - Scenario automatisation dans Suffle
-C:\Projects\wazuh-soc-lab\docs\assets\Playbooks_Suffle(SOAR).png
+docs/assets/Endpoints/assets/Playbooks_Suffle(SOAR).png
 ## 🔹Playbooks - Scenario automatisation dans Suffle
 
-C:\Projects\wazuh-soc-lab\docs\assets\Security-events.png
+docs/assets/Endpoints/assets/Security-events.png
 
 ## 🛠️ Implémentation
 
