@@ -40,21 +40,26 @@ L’objectif est de mettre en place une infrastructure permettant de **supervise
 ##  🔍 Visualisation & Analyse
 
 ## 🔹Agents Wazuh
-docs/assets/Endpoints.jpg
+![Agents Wazuh](docs/assets/Endpoints.jpg)
 
-## 🔹Détection de vulnérabilités dans wazuh
-docs/assets/Endpoints/Vulns_detection.png
+## 🔹Détection de vulnérabilités dans Wazuh
+![Détection de vulnérabilités](docs/assets/Vulns_detection.png)
+
 ## 🔹Tableau de bord des menaces
-docs/assets/Endpoints/assets/Threat Hunting.png
+![Threat Hunting](docs/assets/Threat%20Hunting.png)
+
 
 ## 🔹Logs IDS/IPS via pfSense + Suricata
-docs/assets/Endpoints/assets/pfSense.jpg
+![Logs IDS/IPS](docs/assets/pfSense.jpg)
+
 
 ## 🔹Playbooks - Scenario automatisation dans Suffle
-docs/assets/Endpoints/assets/Playbooks_Suffle(SOAR).png
-## 🔹Playbooks - Scenario automatisation dans Suffle
+![Playbooks Shuffle](docs/assets/Playbooks_Suffle%28SOAR%29.png)
 
-docs/assets/Endpoints/assets/Security-events.png
+## 🔹Suivi des incidents - backlog Wazuh
+
+![Security Events](docs/assets/Security-events.png)
+
 
 ## 🛠️ Implémentation
 
