@@ -34,7 +34,7 @@ L’objectif est de mettre en place une infrastructure permettant de **supervise
   Virtualisation de l’infrastructure.
 
 ## 🔗 Architecture
-docs/assets/architecture.png
+![Architecture](docs/assets/architecture.png)
 
 
 ##  🔍 Visualisation & Analyse
