@@ -91,5 +91,8 @@ L’objectif est de mettre en place une infrastructure permettant de **supervise
 - 📖 [pfSense](https://docs.netgate.com/pfsense/)
 
 
--📌 **Auteur :** Hubert Codjo
-- 📌**Contact :** [houet.hubert@gmail.com](mailto:houet.hubert@gmail.com)
+## 📌 Auteur & contact
+
+- **Auteur :** Codjo Hubert
+- **Contact :** [houet.hubert@gmail.com](mailto:houet.hubert@gmail.com)
+
