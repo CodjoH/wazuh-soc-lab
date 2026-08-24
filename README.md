@@ -65,31 +65,31 @@ L’objectif est de mettre en place une infrastructure permettant de **supervise
 
 ### 🔹 Étapes clés
 
-- 📌 Définition du périmètre et choix des outils
-- 📌 Déploiement de l’infrastructure sous VirtualBox
-- 📌 Installation et configuration de pfSense, Wazuh, Shuffle et Suricata
-- 📌 Déploiement des endpoints Windows Server 2022 et Debian
-- 📌 Installation et configuration des agents Wazuh
-- 📌 Mise en place des règles de détection et mapping MITRE ATT&CK
-- 📌 Création de playbooks Shuffle pour automatiser la réponse aux incidents
-- 📌 Simulation de scénarios d’attaque et génération de logs
-- 📌 Mise en place des actions de remédiation et documentation
+ 📌 Définition du périmètre et choix des outils
+ 📌 Déploiement de l’infrastructure sous VirtualBox
+ 📌 Installation et configuration de pfSense, Wazuh, Shuffle et Suricata
+ 📌 Déploiement des endpoints Windows Server 2022 et Debian
+ 📌 Installation et configuration des agents Wazuh
+ 📌 Mise en place des règles de détection et mapping MITRE ATT&CK
+ 📌 Création de playbooks Shuffle pour automatiser la réponse aux incidents
+ 📌 Simulation de scénarios d’attaque et génération de logs
+ 📌 Mise en place des actions de remédiation et documentation
 
 ## 📈 Résultats
 
-- ✔️ Détection et centralisation des événements de sécurité via Wazuh
-- ✔️ Automatisation de la réponse aux incidents via Shuffle
-- ✔️ Renforcement de la sécurité réseau via Suricata/pfSense
-- ✔️ Corrélation des événements et classification selon MITRE ATT&CK
-- ✔️ Architecture modulaire et évolutive
+ ✔️ Détection et centralisation des événements de sécurité via Wazuh
+ ✔️ Automatisation de la réponse aux incidents via Shuffle
+ ✔️ Renforcement de la sécurité réseau via Suricata/pfSense
+ ✔️ Corrélation des événements et classification selon MITRE ATT&CK
+ ✔️ Architecture modulaire et évolutive
 
 ## 🔗 Documentation
 
-- 📖 [Wazuh](https://documentation.wazuh.com/)
-- 📖 [Shuffle](https://shuffler.io/docs)
-- 📖 [Suricata](https://docs.suricata.io/)
-- 📖 [pfSense](https://docs.netgate.com/pfsense/)
+ 📖 [Wazuh](https://documentation.wazuh.com/)
+ 📖 [Shuffle](https://shuffler.io/docs)
+ 📖 [Suricata](https://docs.suricata.io/)
+ 📖 [pfSense](https://docs.netgate.com/pfsense/)
 
 
--📌 **Auteur :** Hubert Codjo
-- 📌**Contact :** [houet.hubert@gmail.com](mailto:houet.hubert@gmail.com)
+📌 **Auteur :** Hubert Codjo
+📌**Contact :** [houet.hubert@gmail.com](mailto:houet.hubert@gmail.com)
