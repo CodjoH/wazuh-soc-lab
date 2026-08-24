@@ -95,14 +95,8 @@ L’objectif est de mettre en place une infrastructure permettant de **supervise
 <hr>
 
 <p align="center">
-  <br>
-  🛡️ <strong>Codjo Hubert</strong>
-  <br>
-  <sub>Cybersecurity Engineer • SOC Analyst • Blue Team</sub>
-  <br><br>
-  📧 <a href="mailto:houet.hubert@gmail.com"><strong>Click to contact me</strong></a>
-  <br><br>
+  🛡️ <strong>Codjo Hubert</strong><br>
+  <sub>Cybersecurity Engineer • SOC Analyst • Blue Team</sub><br>
+  📧 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=houet.hubert@gmail.com">Click to contact me</a><br>
   ⭐ <i>Thanks for exploring the lab.</i>
-  <br><br>
 </p>
-
