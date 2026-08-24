@@ -1,5 +1,5 @@
 
-🛡️ Mise en place d'un SOC Open Source
+🛡️ Mise en place d'un SOC open source
 
 ## 📌 Introduction
 
@@ -53,7 +53,7 @@ L’objectif est de mettre en place une infrastructure permettant de **supervise
 ![Logs IDS/IPS](docs/assets/pfSense.jpg)
 
 
-## 🔹Playbooks - Scenario automatisation dans Suffle
+## 🔹Playbooks - Scenario automatisation dans Shuffle
 ![Playbooks Shuffle](docs/assets/Playbooks_Suffle%28SOAR%29.png)
 
 ## 🔹Suivi des incidents - backlog Wazuh
@@ -90,3 +90,6 @@ L’objectif est de mettre en place une infrastructure permettant de **supervise
 - 📖 [Suricata](https://docs.suricata.io/)
 - 📖 [pfSense](https://docs.netgate.com/pfsense/)
 
+
+📌 Auteur : Codjo Hubert
+📌 Contact : houet.hubert@gmail.com
