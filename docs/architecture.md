@@ -1,60 +1,35 @@
-# SOC Lab Architecture
+## Architecture 
 
-## Overview
+Ce projet est un laboratoire virtualisé de Security Operations Center (SOC) basé sur Wazuh, Shuffle, Suricata et pfSense.
 
-This project is a virtualized Security Operations Center (SOC) lab built with VirtualBox and Wazuh
+il comprend un Wazuh Manager et deux endpoints supervisés :
 
-The lab contains a Wazuh Manager and two monitored endpoints:
+Wazuh Manager — Debian
+Client1-W — Windows
+Client2-L — Linux
 
-- Wazuh Manager — Debian
-- Client1-W — Windows
-- Client2-L — Linux
+## Architecture réseau
 
-## Network Architecture
+Les machines virtuelles communiquent via un réseau NAT Network dédié de VirtualBox.
 
-The virtual machines communicate through a dedicated VirtualBox NAT Network
+## Communication Wazuh
 
-| Machine | Operating System | IP Address | Role |
+Le Wazuh Manager expose les services suivants :
 
-| WAZUH-SERVER | Debian | 192.168.1.19 | Wazuh Manager |
-| Client1-W | Windows | 192.168.1.20 | Monitored endpoint |
-| Client2-L | Linux | 192.168.1.21 | Monitored endpoint |
+TCP/UDP 1514 — communication avec les agents Wazuh
+TCP 1515 — enrôlement des agents
+TCP 55000 — API Wazuh
+## Validation de la connectivité
 
-Network:
+La connectivité entre le Wazuh Manager et l'endpoint Linux a été validée avec succès.
 
-`192.168.1.0/24`
+La connectivité TCP vers les ports utilisés par Wazuh a également été vérifiée depuis les endpoints Linux et Windows.
 
-Gateway:
+## Configuration réseau VirtualBox
 
-`192.168.1.1`
+Le laboratoire utilise deux interfaces réseau sur les machines virtuelles :
 
-## Wazuh Communication
+NAT — accès à Internet
+NAT Network (NatNetwork) — communication entre les machines du SOC Lab
 
-The Wazuh Manager exposes the following services:
-
-- TCP/UDP 1514 — Wazuh agent communication
-- TCP 1515 — Agent enrollment
-- TCP 55000 — Wazuh API
-
-## Connectivity Validation
-
-Connectivity between the Wazuh Manager and Linux endpoint was successfully validated
-
-The Wazuh Manager is reachable at:
-
-`192.168.1.19`
-
-The Linux endpoint is reachable at:
-
-`192.168.1.21`
-
-TCP connectivity to Wazuh ports was also validated from the Linux and Windows endpoints
-
-## VirtualBox Network Design
-
-The lab uses two network interfaces on the virtual machines:
-
-- NAT — Internet access
-- NAT Network (`NatNetwork`) — communication between SOC lab machines
-
-This separation allows the endpoints to communicate with the Wazuh Manager while maintaining Internet connectivity for updates and installation.
+Cette séparation permet aux endpoints de communiquer avec le Wazuh Manager tout en conservant un accès à Internet pour les mises à jour et l'installation des différents composants.
