@@ -1,5 +1,5 @@
 
-🛡️ Mise en place d'un SOC open source
+<h1 align="center">🛡️ Mise en place d'un SOC open source</h1>
 
 ## 📌 Introduction
 
@@ -53,7 +53,7 @@ L’objectif est de mettre en place une infrastructure permettant de **supervise
 ![Logs IDS/IPS](docs/assets/pfSense.jpg)
 
 
-## 🔹Playbooks - Scenario automatisation dans Shuffle
+## 🔹Playbooks - Scénario d'automatisation dans Shuffle
 ![Playbooks Shuffle](docs/assets/Playbooks_Suffle%28SOAR%29.png)
 
 ## 🔹Suivi des incidents - backlog Wazuh
@@ -65,23 +65,23 @@ L’objectif est de mettre en place une infrastructure permettant de **supervise
 
 ### 🔹 Étapes clés
 
-- 📌 Définition du périmètre et choix des outils
-- 📌 Déploiement de l’infrastructure sous VirtualBox
-- 📌 Installation et configuration de pfSense, Wazuh, Shuffle et Suricata
-- 📌 Déploiement des endpoints Windows Server 2022 et Debian
-- 📌 Installation et configuration des agents Wazuh
-- 📌 Mise en place des règles de détection et mapping MITRE ATT&CK
-- 📌 Création de playbooks Shuffle pour automatiser la réponse aux incidents
-- 📌 Simulation de scénarios d’attaque et génération de logs
-- 📌 Mise en place des actions de remédiation et documentation
+ 📌 Définition du périmètre et choix des outils
+ 📌 Déploiement de l’infrastructure sous VirtualBox
+ 📌 Installation et configuration de pfSense, Wazuh, Shuffle et Suricata
+ 📌 Déploiement des endpoints Windows Server 2022 et Debian
+ 📌 Installation et configuration des agents Wazuh
+ 📌 Mise en place des règles de détection et mapping MITRE ATT&CK
+ 📌 Création de playbooks Shuffle pour automatiser la réponse aux incidents
+ 📌 Simulation de scénarios d’attaque et génération de logs
+ 📌 Mise en place des actions de remédiation et documentation
 
 ## 📈 Résultats
 
  ✔️ Détection et centralisation des événements de sécurité via Wazuh
-- ✔️ Automatisation de la réponse aux incidents via Shuffle
-- ✔️ Renforcement de la sécurité réseau via Suricata/pfSense
-- ✔️ Corrélation des événements et classification selon MITRE ATT&CK
-- ✔️ Architecture modulaire et évolutive
+ ✔️ Automatisation de la réponse aux incidents via Shuffle
+ ✔️ Renforcement de la sécurité réseau via Suricata/pfSense
+ ✔️ Corrélation des événements et classification selon MITRE ATT&CK
+ ✔️ Architecture modulaire et évolutive
 
 ## 🔗 Documentation
 
