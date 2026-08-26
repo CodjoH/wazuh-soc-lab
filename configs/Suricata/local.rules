@@ -1,0 +1,2 @@
+alert icmp 192.168.x.x any -> 192.168.y.y any
+alert icmp 192.168.y.y any -> 192.168.x.x any
