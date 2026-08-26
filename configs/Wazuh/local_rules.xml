@@ -1,0 +1,19 @@
+<!-- Local rules -->
+
+<group name="local,syslog,sshd,">
+
+  <rule id="100001" level="5">
+    <if_sid>5716</if_sid>
+    <srcip>1.1.1.1</srcip>
+    <description>sshd: authentication failed from IP 1.1.1.1.</description>
+    <group>authentication_failed,pci_dss_10.2.4,pci_dss_10.2.5,</group>
+  </rule>
+
+  <rule id="100100" level="10">
+    <field name="win.system.providerName">^Microsoft-Windows-Sysmon$</field>
+    <field name="win.system.eventID">^1$</field>
+    <description>SOC: Sysmon process creation detected</description>
+    <group>sysmon,process_creation,custom_soc,</group>
+  </rule>
+
+</group>
