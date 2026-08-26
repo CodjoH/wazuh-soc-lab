@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-08-22T13:35:20.488+0200",
+  "rule": {
+    "level": 7,
+    "description": "File deleted.",
+    "id": "553",
+    "mitre": {
+      "id": [
+        "T1070.004",
+        "T1485"
+      ],
+      "tactic": [
+        "Defense Evasion",
+        "Impact"
+      ],
+      "technique": [
+        "File Deletion",
+        "Data Destruction"
+      ]
+    },
+    "groups": [
+      "ossec",
+      "syscheck",
+      "syscheck_entry_deleted",
+      "syscheck_file"
+    ]
+  },
+  "agent": {
+    "id": "001",
+    "name": "Linux-Agent",
+    "ip": "192.168.X.X"
+  },
+  "manager": {
+    "name": "Wazuh-Manager"
+  },
+  "syscheck": {
+    "path": "/home/user/FIM-SHUFFLE-TEST.txt",
+    "mode": "realtime",
+    "event": "deleted"
+  },
+  "decoder": {
+    "name": "syscheck_deleted"
+  },
+  "location": "syscheck"
+}
